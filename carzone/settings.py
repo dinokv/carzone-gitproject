@@ -26,7 +26,7 @@ SECRET_KEY = ')kg4wg_mb-afj6syi7=4j4tz)5qtm*($fpf+flb)xlcd-g#wcf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['mighty-everglades-91984.herokuapp.com']
+ALLOWED_HOSTS = []
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
