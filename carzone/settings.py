@@ -26,7 +26,7 @@ SECRET_KEY = ')kg4wg_mb-afj6syi7=4j4tz)5qtm*($fpf+flb)xlcd-g#wcf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['radiant-castle-49077.herokuapp.com']
+ALLOWED_HOSTS = ['mighty-everglades-91984.herokuapp.com']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
@@ -65,7 +65,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware'
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'carzone.urls'
@@ -102,7 +102,7 @@ WSGI_APPLICATION = 'carzone.wsgi.application'
 #     }
 # }
 
-DATABASE = {'default': dj_database_url.config(default='postgres://postgres:679667@localhost/carzone_db')}
+DATABASES = {'default': dj_database_url.config(default='postgres://postgres:679667@localhost/carzone_db')}
 
 
 # Password validation
